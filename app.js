@@ -54,8 +54,8 @@ app.use(function(err, req, res, next) {
    
 });
  
-app.listen(4000, function () {
-    console.log('Node app is running on port 4000');
+app.listen(8000, function () {
+    console.log('Node app is running on port 8000');
 });
  
 module.exports = app;
